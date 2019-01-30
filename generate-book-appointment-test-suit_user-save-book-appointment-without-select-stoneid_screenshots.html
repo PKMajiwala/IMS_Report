@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">ims-automation</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_generate_book_appointment_test_suit.html">Generate Book Appointment Test Suit</a></span>
+                > <span class="truncate-60"><a
+                    href="generate-book-appointment-test-suit_user-save-book-appointment-without-select-stoneid.html">User save book appointment without select stoneID </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-01-2019 12:27</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Generate Book Appointment Test Suit </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">User save book appointment without select stoneID
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given User is on appointment page<br>When User clicks on reset button<br>And User clicks on view party<br>And User selects party &lt;scenario_id&gt;<br>And User clicks on submit button<br>And User clicks on contact person<br>And User enable contact person<br>And User clicks on edit button<br>And User enters number &lt;scenario_id&gt;<br>And User clicks on save button<br>And User selects KAM<br>And User selects Appointment date &lt;scenario_id&gt;<br>And User selects allotted cabin &lt;scenario_id&gt;<br>And User selects Chair &lt;scenario_id&gt;<br>And User selects from appoinment time &lt;scenario_id&gt;<br>And User selects to appoinment time &lt;scenario_id&gt;<br>And User enters remarks &lt;scenario_id&gt;<br>And User clicks on save button<br>Then User gets growl message for appointment : getMessage for &lt;scenario_id&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a811c3cc7dcc05cc19f87124f6931899f4efae1aa3d068a1b14940104f072ea7.png" title="User save book appointment without select stoneID #1: {scenario_id=appointmentNegativeTestCaseBlankStoneId04}" width="1366"/>
+                <img src="d1ab20637752e79386c479efa2febe9fa61136bbbadb21ec9590fa3dd0432799.png" title="Given User is on appointment page" width="1366"/>
+                <img src="56bb1efdd0d998cafc3db720f03a63d9b3e280031b98daa906ecebf684f6fe6c.png" title="When User clicks on reset button" width="1366"/>
+                <img src="88ceca2940a3173b2f5d55f47a92b09b594a6581243ae2bcc28d1e26d66fa4f8.png" title="And User clicks on view party" width="1366"/>
+                <img src="a8826f657adc56c149b13b526759f72406d1900ea204bc80442355d9f3f936ba.png" title="And User selects party appointmentNegativeTestCaseBlankStoneId04" width="1366"/>
+                <img src="7ec4a93be7f7013f657390d8795d776f94d55cf20c314345aa56ec881faf709b.png" title="And User clicks on submit button" width="1366"/>
+                <img src="75192e2c5565ea324deda7dc21a3a7dccefebec4969577b893bc8693efe26b7e.png" title="And User clicks on contact person" width="1366"/>
+                <img src="7346a3dfbcc1dd6972bcc295f9879e617dcf04d2cc6ff53561ddd26227cff965.png" title="And User enable contact person" width="1366"/>
+                <img src="80d42fdef020e45c7c91b38b53019d7354928d316b1fa89896b95a5ed9e729af.png" title="And User clicks on edit button" width="1366"/>
+                <img src="befcd100bb8900b7ca9c463312d65d944c85f7d85a41ec9e33841ec0f5a6e108.png" title="And User enters number appointmentNegativeTestCaseBlankStoneId04" width="1366"/>
+                <img src="18e791b5346d1ac3d926833de025eaf2e0c4b75288c681e570211e213f1e9ef5.png" title="And User clicks on save button" width="1366"/>
+                <img src="079a998165a0f1f2db1c47ef9b5b16578e1e24705303c73c70399ea1468c4e95.png" title="And User selects KAM" width="1366"/>
+                <img src="079a998165a0f1f2db1c47ef9b5b16578e1e24705303c73c70399ea1468c4e95.png" title="And User selects Appointment date appointmentNegativeTestCaseBlankStoneId04" width="1366"/>
+                <img src="dd85fd61b04fa78b8ecd75546b02d6e15942a1a856cfc17adf9653fc49b9434e.png" title="And User selects allotted cabin appointmentNegativeTestCaseBlankStoneId04" width="1366"/>
+                <img src="acb903907159e406dcef5e92fefc7f4a0208361bd9ea2075c5ca4d3a05646ec0.png" title="And User selects Chair appointmentNegativeTestCaseBlankStoneId04" width="1366"/>
+                <img src="acb903907159e406dcef5e92fefc7f4a0208361bd9ea2075c5ca4d3a05646ec0.png" title="And User selects from appoinment time appointmentNegativeTestCaseBlankStoneId04" width="1366"/>
+                <img src="f474046852e8d2e5cf4b0cd48cd34cecd8a0c6c513a3b9ddcb35ca0f2f572392.png" title="And User selects to appoinment time appointmentNegativeTestCaseBlankStoneId04" width="1366"/>
+                <img src="a760b92664541bba3c7a638e89fdc369a27cc4c40c18e34b2296131f8049c6f4.png" title="And User enters remarks appointmentNegativeTestCaseBlankStoneId04" width="1366"/>
+                <img src="0a63d12cbade8ec7dca5049e0c612fafc4bf00ba0abafd4699309f229413d811.png" title="And User clicks on save button" width="1366"/>
+                <img src="a811c3cc7dcc05cc19f87124f6931899f4efae1aa3d068a1b14940104f072ea7.png" title="Then User gets growl message for appointment : getMessage for appointmentNegativeTestCaseBlankStoneId04
+| appointment |: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

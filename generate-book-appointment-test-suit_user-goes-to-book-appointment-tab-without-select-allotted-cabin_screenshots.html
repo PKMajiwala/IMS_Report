@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">ims-automation</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_generate_book_appointment_test_suit.html">Generate Book Appointment Test Suit</a></span>
+                > <span class="truncate-60"><a
+                    href="generate-book-appointment-test-suit_user-goes-to-book-appointment-tab-without-select-allotted-cabin.html">User goes to book appointment tab without select allotted cabin </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-01-2019 12:26</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Generate Book Appointment Test Suit </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">User goes to book appointment tab without select allotted cabin
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given User is on appointment page<br>When User clicks on reset button<br>And User clicks on view party<br>And User selects party &lt;scenario_id&gt;<br>And User clicks on submit button<br>And User clicks on contact person<br>And User enable contact person<br>And User clicks on edit button<br>And User enters number &lt;scenario_id&gt;<br>And User clicks on save button<br>And User selects KAM<br>And User clicks on save button<br>Then User gets growl message for appointment : getMessage for &lt;scenario_id&gt;</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="697fa9067a06fc8b7abca339020791d9ab52d41830014f58ef7df5e2a2c1ba3c.png" title="User goes to book appointment tab without select allotted cabin #1: {scenario_id=appointmentNegativeTestCaseBlankAllottedCabin03}" width="1366"/>
+                <img src="bdfd4da4312cb831a6ec4ba08182fe2cf7c46bf85d32e6245bf92276bf8691a8.png" title="Given User is on appointment page" width="1366"/>
+                <img src="b9fdad9e58c124b76a0782b4b8017e60e5c3407b00ed3149bce5fd9fb0145775.png" title="When User clicks on reset button" width="1366"/>
+                <img src="1d9a360c994ce2aea3638ad11f5de78cadcd691fe1b9e063560766591a76dcc8.png" title="And User clicks on view party" width="1366"/>
+                <img src="ba0ff62fddbf4bbcfc3eaac3834e8139de410ef626aa3194ae84ea3f420d051f.png" title="And User selects party appointmentNegativeTestCaseBlankAllottedCabin03" width="1366"/>
+                <img src="dd1fc0901f8df5c69fcffc85f4d949a496045fc1c2045d92f0d53ddb4c9f2e6d.png" title="And User clicks on submit button" width="1366"/>
+                <img src="8b455434338f76388bfe1a033e02b5d2fb5d53e32b5822d589f3215bd86e909c.png" title="And User clicks on contact person" width="1366"/>
+                <img src="1beede8acedc852697b67670c9b962989df66701582f34595c14c755edf2deb1.png" title="And User enable contact person" width="1366"/>
+                <img src="02cb5cbccee799ba1a97fed5b4a82d115842f51192583113d9f650ed2d1fa783.png" title="And User clicks on edit button" width="1366"/>
+                <img src="b4949f9038f37ff6000cded7fc0a61a28d88e72c8a9ec61e9ab49a4eb69e9de8.png" title="And User enters number appointmentNegativeTestCaseBlankAllottedCabin03" width="1366"/>
+                <img src="082541c476f48deeda4f7fb583ce4f51db0a9bd32b238363dffb5d0a5a7c32bf.png" title="And User clicks on save button" width="1366"/>
+                <img src="84f6f9ae582de6f473758c844602dce3ecc0d81f9d05aaed16d93f64737d5ca1.png" title="And User selects KAM" width="1366"/>
+                <img src="df7de5f815c39c29cbb1236ff15512b6746597e263e45dd84b4215b0d84b5f79.png" title="And User clicks on save button" width="1366"/>
+                <img src="697fa9067a06fc8b7abca339020791d9ab52d41830014f58ef7df5e2a2c1ba3c.png" title="Then User gets growl message for appointment : getMessage for appointmentNegativeTestCaseBlankAllottedCabin03
+| appointment |: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>
